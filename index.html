@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Form Registration</title>
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Archivo+Narrow:400,700" rel="stylesheet" type="text/css">
+<link href="styles/style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="styles/contact.css">
+
+</head>
+<body>
+<div id="logo" class="container">
+  <h1><a href="#">FORM EXERCISE</a></h1>
+</div>
+
+<div id="page" class="container">
+  <div id="box1">
+    <h2 class="title"><a href="#">Member Registration Form</a></h2>
+    <div style="clear: both;">&nbsp;</div>
+    <div class="entry">
+      <p><strong>Fill out the registration form on the side with the correct data. All the fields that exist in this form must be filled</strong></p>
+      
+    </div>
+  </div>
+    
+  <div id="box2">
+   <!-- BUILD FORM PENDAFTARAN START FROM HERE, INCLUDE FULLNAME,USERNAME,PASSWORD,GENDER,BIRTDATE,HOBY,ADDRESS AND SUBMIT BUTTON -->
+     <form id="form_contact" method="post" action="">
+                     
+                     <table cellspacing="20">
+                       <tr>
+                         <td>Fullname</td>
+                         <td>:</td>
+                         <td>
+                           <input type="text" id="fullname" name="fullname" placeholder="Please insert Fullname" value="" required autocomplete="">
+                         </td
+                       ></tr>
+                       <tr>
+                         <td>Username*</td>
+                         <td>:</td>
+                         <td><input type="text" id="username" name="username" placeholder="Username" value=""></td
+                       ></tr>
+                       <tr>
+                         <td>Password*</td>
+                         <td>:</td>
+                         <td><input type="password" id="userpassword" name="userpassword" placeholder="Password" value=""></td
+                       ></tr>
+                       <tr>
+                         <td>Email*</td>
+                         <td>:</td>
+                         <td><input type="email" id="useremail" name="useremail" placeholder="Please insert Email Address" value=""></td
+                       ></tr>
+                       <tr>
+                         <td>Gender</td>
+                         <td>:</td>
+                         <td><input type="radio" id="gendermale" name="gender" value="male" checked>
+                          &nbsp;Male
+                     &nbsp;&nbsp;&nbsp;&nbsp;
+                     <input type="radio" id="genderfemale" name="gender" value="female">
+                     &nbsp;Female</td
+                       ></tr>
+                       <tr>
+                         <td>Birthdate</td>
+                         <td>:</td>
+                         <td>
+                           <select id="day" name="day">
+                       <option value="">--Day--</option>
+                       <option value="1">1</option>
+                       <option value="2">2</option>
+                       <option value="3">3</option>
+                       <option value="3">4</option>
+                     </select>
+                     &nbsp;&nbsp;
+                      <select id="month" name="month">
+                      <option value="">--Month--</option>
+                      <option value="1">January</option>
+                      <option value="2">February</option>
+                      <option value="3">Maret</option>
+                      <option value="3">April</option>
+                     </select>
+                     &nbsp;&nbsp;
+                      <select id="year" name="year">
+                      <option value="">--Year--</option>
+                      <option value="2018">2018</option>
+                      <option value="2017">2017</option>
+                      <option value="2016">2016</option>
+                      <option value="2015">2015</option>
+                     </select>
+                         </td
+                       ></tr>
+                       <tr>
+                         <td>Hobby</td>
+                         <td>:</td>
+                         <td>
+                          <input type="checkbox" id="culinary" name="culinary" value="culinary">&nbsp;Culinary
+                     &nbsp;&nbsp;
+                     <input type="checkbox" id="shopping" name="shopping" value="shopping">&nbsp;Shopping
+                     &nbsp;&nbsp;
+                     <input type="checkbox" id="praying" name="praying" value="praying">&nbsp;Praying
+                         <br>
+                         <input type="checkbox" id="sports" name="sports" value="sports">&nbsp;Sports
+                     &nbsp;&nbsp;
+                     <input type="checkbox" id="travel" name="travel" value="travel">&nbsp;Travel
+                     &nbsp;&nbsp;
+                     <input type="checkbox" id="culture" name="culture" value="culture">&nbsp;Culture
+                    
+                         </td>
+                       </tr>
+                       
+                       <tr>
+                         <td valign="top">Address</td>
+                         <td valign="top">:</td>
+                         <td>
+                           <textarea id="address" name="address"></textarea>
+                         </td>
+                       </tr>
+                       <tr>
+                         <td></td>
+                         <td></td>
+                         <td>
+                           <input type="submit" id="submit" name="submit" value="Submit">
+                           &nbsp;&nbsp;
+                           <input type="reset" id="reset" name="reset" value="Reset">
+                         </td
+                       ></tr>
+                     </table> 
+                   </form>  
+  </div>
+    
+    
+    
+</div>
+<div id="footer" class="container">
+  <p>Copyright (c) 2019 Gutomo Mulya Putra </p>
+</div>
+</body>
+</html>
